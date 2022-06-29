@@ -8,7 +8,7 @@ public class MainClass
         char simbol = 'F';
         float distance = 11,56;
         string name = "Alex";
-        bool IsBurning = true;
+        bool isBurning = true;
         double hitPoints = 5.0;
         byte catAmount = 1;
        short arrovs = 25;
