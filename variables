@@ -4,15 +4,15 @@ public class MainClass
 {
     public static void Main()
     {
-        int number = 11;
+        int kills = 11;
         char simbol = 'F';
-        float number1 = 11,5;
+        float distance = 11,56;
         string name = "Alex";
-        bool value = true;
-        double number2 = 5.0;
-        string name1 = "Igor";
-        string catName = "Barsik";
-        int catAmount = 1;
-        string lastName = "Pupkin";
+        bool IsBurning = true;
+        double hitPoints = 5.0;
+        byte catAmount = 1;
+       short arrovs = 25;
+       ushort level = 11;
+       ulong steps = 265465465;
     }
 }
