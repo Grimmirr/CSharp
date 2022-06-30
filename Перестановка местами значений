@@ -1,0 +1,10 @@
+using System;
+
+public class MainClass
+{
+    public static void Main()
+    {
+        string name = "Пупкин";
+        string lastName = "Вася";
+        Console.WriteLine(name + " " + lastName);
+        Console.WriteLine(lastName + " " + name);
