@@ -1,0 +1,14 @@
+using System;
+
+public class MainClass
+{
+    public static void Main()
+    {
+        int numberOfImages = 52;
+        int picturesInRow = 3;
+        int rows = numberOfImages / picturesInRow;
+        int remain = numberOfImages % picturesInRow;
+        Console.WriteLine("Всего рядов: " + rows);
+        Console.WriteLine("Останется картинок: " + remain);
+    }
+}
