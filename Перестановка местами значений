@@ -2,9 +2,15 @@ using System;
 
 public class MainClass
 {
+    
     public static void Main()
     {
         string name = "Пупкин";
         string lastName = "Вася";
         Console.WriteLine(name + " " + lastName);
+        static void Swap (ref string  name, ref string lastName) { }
+
+        Swap(ref name, ref lastName);
         Console.WriteLine(lastName + " " + name);
+    }
+}
