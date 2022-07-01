@@ -6,8 +6,8 @@ public class MainClass
     {
         int numberOfImages = 52;
         int picturesInRow = 3;
-        int rows = numberOfImages / picturesInRow;
-        int remain = numberOfImages % picturesInRow;
+        int rowsPictures = numberOfImages / picturesInRow;
+        int remainPictures = numberOfImages % picturesInRow;
         Console.WriteLine("Всего рядов: " + rows);
         Console.WriteLine("Останется картинок: " + remain);
     }
