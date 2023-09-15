@@ -1,0 +1,31 @@
+using Microsoft.VisualBasic;
+using System;
+using System.Windows.Forms;
+
+class InputConsoleDemo
+{
+    [STAThread]
+    static void Main()
+    {
+        string link;
+        link = Interaction.InputBox("Вставьте ссылку: ", "Из инсты в тг"); //Создаём переменную, которая получает значение через ввод в диалоговом окне
+        string linktg = link.Insert(12, "dd");//Меняем полученную ссылку
+        DialogResult res = MessageBox.Show("Скопировать изменённую ссылку в буфер обмена? ", "Ссылка для ТГ", MessageBoxButtons.YesNo, MessageBoxIcon.Question);//Диалоговое окно предлагает скопировать полученную ссылку в буфер обмена
+      
+        if (res == DialogResult.Yes)
+        {
+            Clipboard.Clear();
+            Clipboard.SetText(linktg);//Выбираем "Yes" и копируем ссылку в буфер обмена
+        }
+        else/Или нет
+        {
+            
+        }
+       
+
+
+
+
+    }
+
+}
