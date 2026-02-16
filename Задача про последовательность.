@@ -1,0 +1,23 @@
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static async Task Main(string[] args)
+        {
+            int minNumber = 5;
+            int maxNumber = 103;
+            int addedNumber = 7;
+            int currentNumber;
+            
+            currentNumber = minNumber;
+            Console.WriteLine(currentNumber);
+
+            while (currentNumber < maxNumber)
+            {
+                currentNumber += addedNumber;
+                Console.WriteLine(currentNumber);
+            }
+
+        }
+    }
+}
